@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99129d26-4cbd-4c20-b192-47295700d053" name="Changes" comment="" />
+    <list default="true" id="99129d26-4cbd-4c20-b192-47295700d053" name="Changes" comment="Сделали новый сайт.">
+      <change beforePath="$PROJECT_DIR$/../Online_Biblioteka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Online_Biblioteka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Online_Biblioteka/library/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Online_Biblioteka/library/catalog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Online_Biblioteka/library/catalog/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Online_Biblioteka/library/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Online_Biblioteka/library/catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Online_Biblioteka/library/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Online_Biblioteka/library/catalog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Online_Biblioteka/library/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../Online_Biblioteka/library/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Online_Biblioteka/library/library/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Online_Biblioteka/library/library/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Online_Biblioteka/library/library/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Online_Biblioteka/library/library/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +26,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Online_Biblioteka" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OsWu8Z4MjiU0xWSljIMGA76PKi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

@@ -1,0 +1,69 @@
+{%extends "base_generic.html"%}
+{%block content%}
+<h1>
+    Наши книги.
+</h1>
+{%if books%}
+<ul>
+    {%for b in books%}
+    <li>
+        <a href="{{b.get_absolute_url}}">{{b.title}}</a>
+        ({{b.author}})
+    </li>
+    {%endfor%}
+</ul>
+{%else%}
+<p>
+    Пока книги нет.
+</p>
+{%endif%}
+{%endblock%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

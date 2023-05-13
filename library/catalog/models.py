@@ -15,7 +15,7 @@ class Book(models.Model):
 
     # languege = models.ManyToManyField('Languege', help_text='Введите язык книги. >_<')
     def get_absolute_url(self):
-        return reverse('book.detail', args=[str(self.id)])
+        return reverse('book-detail', args=[str(self.id)])
 
     def __str__(self):
         return self.title
@@ -29,14 +29,14 @@ class Genre(models.Model):
 
 
 class Author(models.Model):
-    first_name = models.CharField(max_length=20, help_text='Впишите сюда фамилию.')
-    last_name = models.CharField(max_length=20, help_text='Впишите сюда имя.')
+    first_name = models.CharField(max_length=20, help_text='Впишите сюда имя.')
+    last_name = models.CharField(max_length=20, help_text='Впишите сюда фамилию.')
     father_name = models.CharField(max_length=20, help_text='Впишите сюда отчество.')
     date_of_birth = models.DateField(help_text='Впишите сюда свою дату рождения.', null=True)
     date_of_death = models.DateField(help_text='Впишите сюда дату сметри человека.')
 
     def get_absolute_url(self):
-        return reverse('author.detail', args=[str(self.id)])
+        return reverse('author-detail', args=[str(self.id)])
 
     def __str__(self):
         return '%s, %s' % (self.last_name, self.first_name)

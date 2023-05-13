@@ -1,20 +1,20 @@
 {%extends "base_generic.html"%}
 {%block content%}
 <h1>
-    Наши книги.
+    Наши авторы.
 </h1>
-{%if books%}
+{%if author_list%}
 <ul>
-    {%for b in books%}
+    {%for b in author_list%}
     <li>
-        <a href="{{b.get_absolute_url}}">{{b.title}}</a>
-        ({{b.author}})
+        <a href="{{b.get_absolute_url}}">{{b.first_name}}</a>
+        ({{b.book}})
     </li>
     {%endfor%}
 </ul>
 {%else%}
 <p>
-    Пока книги нет.
+    Пока авторов нет.
 </p>
 {%endif%}
 {%endblock%}

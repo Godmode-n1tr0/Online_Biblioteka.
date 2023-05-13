@@ -1,0 +1,69 @@
+{%extends "base_generic.html"%}
+{%block content%}
+<h1>
+    Фамилия: {{author.last_name}}
+</h1>
+
+<p>
+  <strong>
+    Имя:
+  </strong>
+  {{author.first_name}}
+</p>
+<p>
+  Годы жизни: {{author.date_of_birth}} - {%if author.date_of_birth%}{{author.date_of_death}}{%andif%}
+</p>
+<h3>
+  Книги: {%for b in author.book_set.all%}
+</h3>
+
+{%endblock%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
